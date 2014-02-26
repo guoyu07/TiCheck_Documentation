@@ -1,0 +1,877 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<uml version="6">
+  <argo version="6">
+    <documentation>
+      <authorname></authorname>
+      <authoremail></authoremail>
+      <version>0.34</version>
+      <description>
+        
+      </description>
+    </documentation>
+    <settings>
+      <notationlanguage>UML 1.4</notationlanguage>
+      <showboldnames>false</showboldnames>
+      <useguillemots>false</useguillemots>
+      <showassociationnames>true</showassociationnames>
+      <showvisibility>false</showvisibility>
+      <showmultiplicity>false</showmultiplicity>
+      <showinitialvalue>false</showinitialvalue>
+      <showproperties>false</showproperties>
+      <showtypes>true</showtypes>
+      <showstereotypes>false</showstereotypes>
+      <showsingularmultiplicities>true</showsingularmultiplicities>
+      <defaultshadowwidth>1</defaultshadowwidth>
+      <hidebidirectionalarrows>true</hidebidirectionalarrows>    
+      <fontname>Lucida Grande</fontname>
+      <fontsize>13</fontsize>
+      <defaultstereotypeview>0</defaultstereotypeview>
+      <activediagram>Deployment Diagram</activediagram>
+    </settings>
+    <searchpath href="PROJECT_DIR" />
+    <members>
+      <member type="profile"
+              name="Distribution_profile.profile" />
+      <member type="xmi"
+              name="Distribution.xmi" />
+      <member type="pgml"
+              name="Distribution_ClassDiagram.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="Class Diagram" />
+      <member type="pgml"
+              name="Distribution_UseCaseDiagram.pgml"
+              diagramclass="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram"
+              diagramname="Use Case Diagram" />
+      <member type="pgml"
+              name="Distribution_DeploymentDiagram.pgml"
+              diagramclass="org.argouml.uml.diagram.deployment.ui.UMLDeploymentDiagram"
+              diagramname="Deployment Diagram" />
+      <member type="todo"
+              name="Distribution.todo" />
+    </members>
+    <historyfile name="" />
+  </argo>
+<profile>
+		<plugin>
+			UML 1.4
+		</plugin>
+		<plugin>
+			GoodPractices
+		</plugin>
+		<plugin>
+			CodeGeneration
+		</plugin>
+</profile>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Thu Feb 27 01:16:51 CST 2014'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000865'
+      name = 'untitledModel' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:Node xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866'
+          name = 'Application Server' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:ModelElement.clientDependency>
+            <UML:Dependency xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086C'/>
+          </UML:ModelElement.clientDependency>
+          <UML:ModelElement.comment>
+            <UML:Comment xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086E'/>
+          </UML:ModelElement.comment>
+        </UML:Node>
+        <UML:Node xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000867'
+          name = 'Web Server' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:ModelElement.comment>
+            <UML:Comment xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000870'/>
+          </UML:ModelElement.comment>
+        </UML:Node>
+        <UML:Node xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000868'
+          name = 'iOS Client' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:ModelElement.clientDependency>
+            <UML:Dependency xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086A'/>
+          </UML:ModelElement.clientDependency>
+        </UML:Node>
+        <UML:Dependency xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086A'
+          name = 'Notification Come from' isSpecification = 'false'>
+          <UML:Dependency.client>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000868'/>
+          </UML:Dependency.client>
+          <UML:Dependency.supplier>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866'/>
+          </UML:Dependency.supplier>
+        </UML:Dependency>
+        <UML:Node xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086B'
+          name = 'Server of Thrid Party' isSpecification = 'false' isRoot = 'false'
+          isLeaf = 'false' isAbstract = 'false'>
+          <UML:ModelElement.comment>
+            <UML:Comment xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086F'/>
+          </UML:ModelElement.comment>
+        </UML:Node>
+        <UML:Dependency xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086C'
+          name = 'Acquire Data from' isSpecification = 'false'>
+          <UML:Dependency.client>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866'/>
+          </UML:Dependency.client>
+          <UML:Dependency.supplier>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086B'/>
+          </UML:Dependency.supplier>
+        </UML:Dependency>
+        <UML:Comment xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086E'
+          isSpecification = 'false' body = '保存有用户所有订阅的机票信息，&#10;以此为依据以一定频率刷新，在&#10;满足用户需求的情况下，推送变动&#10;过的机票信息（不变动则不推送，&#10;或低频率）'>
+          <UML:Comment.annotatedElement>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086F'
+          isSpecification = 'false' body = '目前为携程API：u.ctrip.com&#10;提供机票信息检索&#10;订单生成&#10;用户信息提供&#10;订单取消&#10;支付等接口'>
+          <UML:Comment.annotatedElement>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086B'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+        <UML:Comment xmi.id = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000870'
+          isSpecification = 'false' body = '应用介绍、推广、&#10;下载静态页。'>
+          <UML:Comment.annotatedElement>
+            <UML:Node xmi.idref = '-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000867'/>
+          </UML:Comment.annotatedElement>
+        </UML:Comment>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000865"
+      name="Class Diagram"
+>
+</pgml>
+<pgml description="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram|-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000865"
+      name="Use Case Diagram"
+>
+</pgml>
+<pgml description="org.argouml.uml.diagram.deployment.ui.UMLDeploymentDiagram|-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000865"
+      name="Deployment Diagram"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.deployment.ui.FigMNode[328, 208, 143, 112]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="328"
+      y="208"
+      width="143"
+      height="112"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <rectangle name="Fig0.1"
+      x="328"
+      y="228"
+      width="123"
+      height="92"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig0.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[329, 229, 121, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000866"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.2.0"
+        x="329"
+        y="229"
+        width="121"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig0.3"
+      x="332"
+      y="229"
+      width="122"
+      height="24"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >Application Server</text>
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.deployment.ui.FigMNode[648, 208, 120, 104]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000867"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="648"
+      y="208"
+      width="120"
+      height="104"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <rectangle name="Fig1.1"
+      x="648"
+      y="228"
+      width="100"
+      height="84"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig1.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[649, 229, 98, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000867"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.2.0"
+        x="649"
+        y="229"
+        width="98"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig1.3"
+      x="652"
+      y="229"
+      width="92"
+      height="24"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >Web Server</text>
+  </group>
+  <group name="Fig2"
+       description="org.argouml.uml.diagram.deployment.ui.FigMNode[568, 32, 176, 96]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000868"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig2.0"
+      x="568"
+      y="32"
+      width="176"
+      height="96"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <rectangle name="Fig2.1"
+      x="568"
+      y="52"
+      width="156"
+      height="76"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig2.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[569, 53, 154, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000868"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig2.2.0"
+        x="569"
+        y="53"
+        width="154"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig2.3"
+      x="572"
+      y="53"
+      width="148"
+      height="24"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >iOS Client</text>
+  </group>
+  <group name="Fig3"
+       description="org.argouml.uml.diagram.deployment.ui.FigMNode[32, 216, 158, 104]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086B"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig3.0"
+      x="32"
+      y="216"
+      width="158"
+      height="104"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <rectangle name="Fig3.1"
+      x="32"
+      y="236"
+      width="138"
+      height="84"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <group name="Fig3.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[33, 237, 136, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086B"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.2.0"
+        x="33"
+        y="237"
+        width="136"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig3.3"
+      x="36"
+      y="237"
+      width="137"
+      height="24"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >Server of Thrid Party</text>
+  </group>
+  <group name="Fig4"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[496, 336, 211, 86]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086E"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig4.0"
+      x="496"
+      y="336"
+      width="211"
+      height="86"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig4.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="496"
+              y="336" />
+      <lineto x="696"
+              y="336" />
+      <lineto x="706"
+              y="346" />
+      <lineto x="706"
+              y="421" />
+      <lineto x="496"
+              y="421" />
+      <lineto x="496"
+              y="336" />
+    </path>
+    <path name="Fig4.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="696"
+              y="336" />
+      <lineto x="706"
+              y="346" />
+      <lineto x="696"
+              y="346" />
+      <lineto x="696"
+              y="336" />
+    </path>
+    <group name="Fig4.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[498, 338, 197, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086E"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig4.3.0"
+        x="498"
+        y="338"
+        width="197"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig4.4"
+      x="498"
+      y="338"
+      width="197"
+      height="82"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >保存有用户所有订阅的机票信息，
+以此为依据以一定频率刷新，在
+满足用户需求的情况下，推送变动
+过的机票信息（不变动则不推送，
+或低频率）</text>
+  </group>
+  <group name="Fig5"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig4"
+      destPortFig="Fig0"
+      sourceFigNode="Fig4"
+      destFigNode="Fig0"
+    </private>
+    <path name="Fig5.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="496"
+              y="336" />
+      <lineto x="471"
+              y="300" />
+    </path>
+  </group>
+  <group name="Fig6"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[40, 392, 186, 102]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086F"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig6.0"
+      x="40"
+      y="392"
+      width="186"
+      height="102"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig6.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="40"
+              y="392" />
+      <lineto x="215"
+              y="392" />
+      <lineto x="225"
+              y="402" />
+      <lineto x="225"
+              y="493" />
+      <lineto x="40"
+              y="493" />
+      <lineto x="40"
+              y="392" />
+    </path>
+    <path name="Fig6.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="215"
+              y="392" />
+      <lineto x="225"
+              y="402" />
+      <lineto x="215"
+              y="402" />
+      <lineto x="215"
+              y="392" />
+    </path>
+    <group name="Fig6.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[42, 394, 172, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086F"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig6.3.0"
+        x="42"
+        y="394"
+        width="172"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig6.4"
+      x="42"
+      y="394"
+      width="172"
+      height="98"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >目前为携程API：u.ctrip.com
+提供机票信息检索
+订单生成
+用户信息提供
+订单取消
+支付等接口</text>
+  </group>
+  <group name="Fig7"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig6"
+      destPortFig="Fig3"
+      sourceFigNode="Fig6"
+      destFigNode="Fig3"
+    </private>
+    <path name="Fig7.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="109"
+              y="392" />
+      <lineto x="109"
+              y="320" />
+    </path>
+  </group>
+  <group name="Fig8"
+       description="org.argouml.uml.diagram.static_structure.ui.FigComment[776, 352, 120, 40]pathVisible=false;stereotypeView=0;"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000870"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig8.0"
+      x="776"
+      y="352"
+      width="120"
+      height="40"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig8.1"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="776"
+              y="352" />
+      <lineto x="885"
+              y="352" />
+      <lineto x="895"
+              y="362" />
+      <lineto x="895"
+              y="391" />
+      <lineto x="776"
+              y="391" />
+      <lineto x="776"
+              y="352" />
+    </path>
+    <path name="Fig8.2"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="1"
+      fillcolor="178 178 178"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="885"
+              y="352" />
+      <lineto x="895"
+              y="362" />
+      <lineto x="885"
+              y="362" />
+      <lineto x="885"
+              y="352" />
+    </path>
+    <group name="Fig8.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[778, 354, 106, 0]"
+         href="-64--88-1-101--242aafe2:1446f27799e:-8000:0000000000000870"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig8.3.0"
+        x="778"
+        y="354"
+        width="106"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig8.4"
+      x="778"
+      y="354"
+      width="106"
+      height="36"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Lucida Grande"
+      italic="false"
+      bold="false"
+      textsize="13"
+      justification="Left"
+    >应用介绍、推广、
+下载静态页。</text>
+  </group>
+  <group name="Fig9"
+       description="org.argouml.uml.diagram.static_structure.ui.FigEdgeNote"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig8"
+      destPortFig="Fig1"
+      sourceFigNode="Fig8"
+      destFigNode="Fig1"
+    </private>
+    <path name="Fig9.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="776"
+              y="352" />
+      <lineto x="748"
+              y="312" />
+    </path>
+  </group>
+  <group name="Fig10"
+       description="org.argouml.uml.diagram.ui.FigDependency"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086A"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig2.0"
+      destPortFig="Fig0.0"
+      sourceFigNode="Fig2"
+      destFigNode="Fig0"
+      <argouml:pathitem figname="Fig10.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086A"
+                        angle="-55.0"
+                        offset="91" />
+    </private>
+    <path name="Fig10.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="568"
+              y="128" />
+      <lineto x="471"
+              y="208" />
+    </path>
+  </group>
+  <group name="Fig11"
+       description="org.argouml.uml.diagram.ui.FigDependency"
+       href="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086C"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig0.0"
+      destPortFig="Fig3.0"
+      sourceFigNode="Fig0"
+      destFigNode="Fig3"
+      <argouml:pathitem figname="Fig11.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="-64--88-1-101--242aafe2:1446f27799e:-8000:000000000000086C"
+                        angle="62.0"
+                        offset="25" />
+    </private>
+    <path name="Fig11.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="328"
+              y="268" />
+      <lineto x="190"
+              y="268" />
+    </path>
+  </group>
+</pgml>
+<todo>
+<todolist>
+</todolist>
+<resolvedcritics>
+</resolvedcritics>
+</todo>
+</uml>
