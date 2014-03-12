@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>567</split-view-divider-position>
-      <outline x="0" y="0" w="567" h="681">
+      <outline x="0" y="337" w="567" h="681">
         <column name="Violations" width="20"/>
         <column name="Status" width="20"/>
         <column name="Notes" width="20"/>
@@ -19,10 +19,10 @@
         <column name="Start Variance" width="107"/>
         <column name="Planned End" width="100"/>
         <column name="End Variance" width="101"/>
-        <expanded-items idrefs="t30 t24 t18 t81 t53 t36 t31 t20 t56 t62 t6 t23 t51 t60 t96 t54 t15 t63 t28"/>
-        <selected-items-at-filter-time idrefs="t83 t94 t97 t86 t89 t90 t84 t95 t98 t93 t87 t96 t91 t99 t88"/>
+        <expanded-items idrefs="t96 t63 t18 t30 t51 t27 t56 t31 t23 t15 t81 t36 t28 t60 t6 t24 t53 t58 t20 t62 t54"/>
+        <selected-items-at-filter-time idrefs="t83 t88 t97 t86 t95 t90 t84 t89 t98 t87 t93 t96 t91 t99 t94"/>
       </outline>
-      <gantt-view x="47" y="0" w="872" h="681">
+      <gantt-view x="882.5" y="337" w="872" h="681">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +54,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="197.801">
+        <scale scale-name="Automatic" full-day-width="177.963">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -75,7 +75,7 @@
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-74" y="0" w="1105" h="681">
+      <timeline x="-64" y="0" w="1105" h="681">
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
@@ -118,7 +118,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="666">
+      <outline x="0" y="0" w="290" h="670">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -130,7 +130,7 @@
   </window>
   <project>
     <title>TiCheck Project</title>
-    <next-task-id>100</next-task-id>
+    <next-task-id>106</next-task-id>
     <next-resource-id>8</next-resource-id>
     <scenario id="eBwsHD9y4ju" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>

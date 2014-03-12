@@ -430,7 +430,6 @@
     <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
     <child-task idref="t45"/>
     <child-task idref="t36"/>
-    <child-task idref="t86"/>
   </task>
   <task id="t27">
     <title>项目设计</title>
@@ -441,7 +440,6 @@
     <child-task idref="t28"/>
     <child-task idref="t94"/>
     <child-task idref="t30"/>
-    <child-task idref="t84"/>
     <child-task idref="t95"/>
     <prerequisite-task idref="t83"/>
   </task>
@@ -475,13 +473,19 @@
     <title>服务端数据库设计 ERD</title>
     <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
     <effort>28800</effort>
+    <min-estimate>0</min-estimate>
+    <start-constraint-date>2014-03-11T00:00:00.000Z</start-constraint-date>
     <assignment idref="r2"/>
+    <start-no-earlier-than>2014-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t34">
     <title>客户端数据库设计 ERD</title>
     <leveled-start>2014-03-10T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <min-estimate>0</min-estimate>
+    <start-constraint-date>2014-03-11T00:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
+    <start-no-earlier-than>2014-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t36">
     <title>Use Cases</title>
@@ -495,6 +499,7 @@
     <leveled-start>2014-03-08T05:00:00.000Z</leveled-start>
     <effort>10800</effort>
     <max-estimate>124200</max-estimate>
+    <effort-done>10800</effort-done>
     <assignment idref="r2"/>
   </task>
   <task id="t39">
@@ -503,6 +508,7 @@
     <effort>10800</effort>
     <min-estimate>7200</min-estimate>
     <max-estimate>41400</max-estimate>
+    <effort-done>10800</effort-done>
     <prerequisite-task idref="t37"/>
     <assignment idref="r2"/>
   </task>
@@ -514,10 +520,13 @@
   </task>
   <task id="t42">
     <title>界面设计</title>
+    <split/>
     <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
     <effort>57600</effort>
-    <min-estimate>28800</min-estimate>
-    <assignment idref="r5"/>
+    <min-estimate>0</min-estimate>
+    <effort-done>57600</effort-done>
+    <child-task idref="t100"/>
+    <child-task idref="t101"/>
   </task>
   <task id="t44">
     <title>Class Diagram</title>
@@ -531,6 +540,7 @@
     <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
     <effort>7200</effort>
     <max-estimate>28800</max-estimate>
+    <effort-done>7200</effort-done>
     <assignment idref="r2"/>
     <assignment idref="r1"/>
   </task>
@@ -539,6 +549,8 @@
     <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
     <effort>14400</effort>
     <max-estimate>28800</max-estimate>
+    <start-constraint-date>2014-03-11T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t47">
     <title>Sequence Diagram</title>
@@ -683,7 +695,7 @@
     <title>进度安排</title>
     <leveled-start>2014-03-06T10:49:22.000Z</leveled-start>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
     <prerequisite-task idref="t64"/>
     <assignment idref="r2"/>
     <assignment idref="r1"/>
@@ -787,23 +799,16 @@
     <leveled-start>2014-03-06T02:00:00.000Z</leveled-start>
     <effort>288000</effort>
     <min-estimate>28800</min-estimate>
+    <start-constraint-date>2014-03-11T00:00:00.000Z</start-constraint-date>
     <assignment idref="r6"/>
+    <start-no-earlier-than>2014-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t83">
     <title>完成计划</title>
     <type>milestone</type>
     <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
+    <completion-percentage>1</completion-percentage>
     <prerequisite-task idref="t23"/>
-  </task>
-  <task id="t84">
-    <title>设计阶段结束</title>
-    <type>milestone</type>
-    <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
-  </task>
-  <task id="t86">
-    <title>需求分析阶段结束</title>
-    <type>milestone</type>
-    <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
   </task>
   <task id="t87">
     <title>完成设计</title>
@@ -839,6 +844,7 @@
     <title>完成需求分析</title>
     <type>milestone</type>
     <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
+    <completion-percentage>1</completion-percentage>
     <prerequisite-task idref="t24"/>
   </task>
   <task id="t94">
@@ -870,7 +876,7 @@
     <leveled-start>2014-03-17T12:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <max-estimate>86400</max-estimate>
-    <effort-done>21600</effort-done>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0.501961" b="0"/>
@@ -882,6 +888,7 @@
     <title>web 页面实现</title>
     <leveled-start>2014-03-19T14:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>18685</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0.501961" b="0"/>
@@ -896,6 +903,25 @@
     <effort>57600</effort>
     <min-estimate>28800</min-estimate>
     <assignment idref="r4"/>
+  </task>
+  <task id="t100">
+    <title>界面设计</title>
+    <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
+    <effort>4285</effort>
+    <max-estimate>57600</max-estimate>
+    <effort-done>4285</effort-done>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t101">
+    <title>界面设计</title>
+    <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
+    <effort>53315</effort>
+    <min-estimate>4285</min-estimate>
+    <max-estimate>57600</max-estimate>
+    <effort-done>53315</effort-done>
+    <start-constraint-date>2014-03-11T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2014-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="true" resources="true">
     <color r="1" g="0.5" b="0.5"/>
