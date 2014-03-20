@@ -7,22 +7,18 @@
     <draw-folded/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>567</split-view-divider-position>
-      <outline x="0" y="337" w="567" h="681">
+      <split-view-divider-position>469</split-view-divider-position>
+      <outline x="0" y="838" w="469" h="681">
         <column name="Violations" width="20"/>
         <column name="Status" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="296"/>
+        <column name="Title" width="201"/>
         <column name="Effort" width="114"/>
         <column name="%Done" width="87"/>
-        <column name="Planned Start" width="103"/>
-        <column name="Start Variance" width="107"/>
-        <column name="Planned End" width="100"/>
-        <column name="End Variance" width="101"/>
-        <expanded-items idrefs="t96 t63 t18 t30 t51 t27 t56 t31 t23 t15 t81 t36 t28 t60 t6 t24 t53 t58 t20 t62 t54"/>
-        <selected-items-at-filter-time idrefs="t83 t88 t97 t86 t95 t90 t84 t89 t98 t87 t93 t96 t91 t99 t94"/>
+        <expanded-items idrefs="t96 t88 t63 t18 t30 t89 t51 t27 t56 t31 t60 t23 t81 t15 t28 t36 t6 t24 t53 t58 t20 t62 t54"/>
+        <selected-items-at-filter-time idrefs="t83 t94 t97 t89 t90 t95 t98 t87 t93 t96 t91 t99 t88"/>
       </outline>
-      <gantt-view x="882.5" y="337" w="872" h="681">
+      <gantt-view x="-81" y="838" w="970" h="681">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +50,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="177.963">
+        <scale scale-name="Automatic" full-day-width="42.5587">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -75,7 +71,7 @@
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-64" y="0" w="1105" h="681">
+      <timeline x="-72" y="0" w="1105" h="681">
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
