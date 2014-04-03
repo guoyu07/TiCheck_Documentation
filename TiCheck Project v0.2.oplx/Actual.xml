@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="lWh68WkbJco">
+  <start-date>2014-03-04T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t4294967294">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967293">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t4294967292">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r4294967294">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967293">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967292">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r4294967291">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+  </resource>
+  <resource id="r1">
+    <name>博一 李</name>
+    <type>Staff</type>
+    <address-book-uid>04DE395D-9B6B-4513-A33E-DD34CD3B67D0:ABPerson</address-book-uid>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="36000"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="50400"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r2">
+    <name>明 杨</name>
+    <type>Staff</type>
+    <address-book-uid>5F7D4569-FE31-49EC-8D29-A9FBC28FBC98:ABPerson</address-book-uid>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="46800" end-time="61200"/>
+        <time-span start-time="66600" end-time="72000"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="66600" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday"/>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r3">
+    <name>泽彪 黄</name>
+    <type>Staff</type>
+    <address-book-uid>8056E7B9-DC01-432A-9EC1-A78AAE40DEA9:ABPerson</address-book-uid>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="75600" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r4">
+    <name>峰 邱</name>
+    <type>Staff</type>
+    <address-book-uid>99FAC89C-27AD-4093-AE00-BBE3D5521B33:ABPerson</address-book-uid>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday"/>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="68400" end-time="86400"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r5">
+    <name>大畅 刘</name>
+    <type>Staff</type>
+    <address-book-uid>8376CEF7-BBA3-49FC-9F2B-4FDF27704C0F:ABPerson</address-book-uid>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="72000" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="72000" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="72000" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="72000" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday"/>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="72000" end-time="82800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="46800" end-time="54000"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r6">
+    <name>韧 李</name>
+    <type>Staff</type>
+    <address-book-uid>96274E6E-13E1-45A9-8221-713611BFB217:ABPerson</address-book-uid>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <title>Prototype</title>
+    <type>group</type>
+    <child-task idref="t23"/>
+    <child-task idref="t83"/>
+    <child-task idref="t27"/>
+    <child-task idref="t87"/>
+    <child-task idref="t58"/>
+    <child-task idref="t81"/>
+    <child-task idref="t90"/>
+    <child-task idref="t88"/>
+    <child-task idref="t91"/>
+    <child-task idref="t89"/>
+  </task>
+  <task id="t2">
+    <title>PHP后台联通携程API</title>
+    <leveled-start>2014-04-05T05:00:00.000Z</leveled-start>
+    <effort>115200</effort>
+    <min-estimate>0</min-estimate>
+    <max-estimate>207000</max-estimate>
+    <effort-done>115200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t4">
+    <title>Apple Push Notification Server后台</title>
+    <leveled-start>2014-04-07T10:30:00.000Z</leveled-start>
+    <effort>201600</effort>
+    <min-estimate>28800</min-estimate>
+    <effort-done>42300</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t5">
+    <title>服务器数据库实现</title>
+    <effort>28800</effort>
+    <min-estimate>3600</min-estimate>
+    <max-estimate>124200</max-estimate>
+    <effort-done>5759.99951171875</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t6">
+    <title>PHP后台</title>
+    <type>group</type>
+    <leveled-start>2014-04-07T10:30:00.000Z</leveled-start>
+    <child-task idref="t2"/>
+    <child-task idref="t12"/>
+    <child-task idref="t5"/>
+    <child-task idref="t4"/>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t12">
+    <title>订阅机票后台实现</title>
+    <leveled-start>2014-04-17T10:30:00.000Z</leveled-start>
+    <effort>144000</effort>
+    <min-estimate>28800</min-estimate>
+    <max-estimate>331200</max-estimate>
+    <effort-done>40500</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t2"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t15">
+    <title>iOS 前台</title>
+    <type>group</type>
+    <leveled-start>2014-04-12T08:00:00.000Z</leveled-start>
+    <child-task idref="t62"/>
+    <child-task idref="t16"/>
+    <child-task idref="t18"/>
+    <child-task idref="t20"/>
+    <child-task idref="t61"/>
+    <child-task idref="t63"/>
+    <child-task idref="t60"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t42"/>
+  </task>
+  <task id="t16">
+    <title>测试携程 API 联通</title>
+    <leveled-start>2014-04-12T08:00:00.000Z</leveled-start>
+    <effort>115200</effort>
+    <min-estimate>28800</min-estimate>
+    <max-estimate>207000</max-estimate>
+    <effort-done>88200</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t18">
+    <title>搜索机票</title>
+    <type>group</type>
+    <leveled-start>2014-04-16T11:30:00.000Z</leveled-start>
+    <child-task idref="t76"/>
+    <child-task idref="t77"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t16"/>
+  </task>
+  <task id="t20">
+    <title>订阅机票</title>
+    <type>group</type>
+    <leveled-start>2014-04-20T12:30:00.000Z</leveled-start>
+    <child-task idref="t74"/>
+    <child-task idref="t75"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t18"/>
+    <prerequisite-task idref="t62"/>
+  </task>
+  <task id="t23">
+    <title>项目计划</title>
+    <type>group</type>
+    <leveled-start>2014-03-05T08:04:22.000Z</leveled-start>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+  </task>
+  <task id="t24">
+    <title>需求分析</title>
+    <type>group</type>
+    <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
+    <child-task idref="t45"/>
+    <child-task idref="t36"/>
+  </task>
+  <task id="t27">
+    <title>项目设计</title>
+    <type>group</type>
+    <leveled-start>2014-03-27T12:30:10.000Z</leveled-start>
+    <child-task idref="t24"/>
+    <child-task idref="t93"/>
+    <child-task idref="t28"/>
+    <child-task idref="t94"/>
+    <child-task idref="t30"/>
+    <child-task idref="t95"/>
+    <prerequisite-task idref="t83"/>
+  </task>
+  <task id="t28">
+    <title>概要设计</title>
+    <type>group</type>
+    <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
+    <child-task idref="t31"/>
+    <child-task idref="t42"/>
+    <prerequisite-task idref="t93"/>
+  </task>
+  <task id="t30">
+    <title>详细设计</title>
+    <type>group</type>
+    <leveled-start>2014-04-05T06:00:00.000Z</leveled-start>
+    <child-task idref="t51"/>
+    <child-task idref="t53"/>
+    <child-task idref="t54"/>
+    <child-task idref="t56"/>
+    <prerequisite-task idref="t94"/>
+  </task>
+  <task id="t31">
+    <title>数据库设计 ERD</title>
+    <type>group</type>
+    <leveled-start>2014-03-20T11:00:00.000Z</leveled-start>
+    <child-task idref="t33"/>
+  </task>
+  <task id="t33">
+    <title>服务端数据库设计 ERD</title>
+    <leveled-start>2014-03-20T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <min-estimate>0</min-estimate>
+    <effort-done>28800</effort-done>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t36">
+    <title>Use Cases</title>
+    <type>group</type>
+    <leveled-start>2014-03-08T05:00:00.000Z</leveled-start>
+    <child-task idref="t37"/>
+    <child-task idref="t39"/>
+  </task>
+  <task id="t37">
+    <title>Use Case Diagram</title>
+    <leveled-start>2014-03-08T05:00:00.000Z</leveled-start>
+    <effort>10800</effort>
+    <max-estimate>124200</max-estimate>
+    <effort-done>10800</effort-done>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t39">
+    <title>Use Case Specification</title>
+    <leveled-start>2014-03-08T08:00:00.000Z</leveled-start>
+    <effort>10800</effort>
+    <min-estimate>7200</min-estimate>
+    <max-estimate>41400</max-estimate>
+    <effort-done>10800</effort-done>
+    <prerequisite-task idref="t37"/>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t40">
+    <title>Activity Diagram</title>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <effort>86400</effort>
+    <min-estimate>0</min-estimate>
+  </task>
+  <task id="t42">
+    <title>界面设计</title>
+    <effort>57600</effort>
+    <min-estimate>0</min-estimate>
+    <effort-done>57600</effort-done>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t44">
+    <title>Class Diagram</title>
+    <leveled-start>2014-04-05T06:00:00.000Z</leveled-start>
+    <effort>57600</effort>
+    <min-estimate>3600</min-estimate>
+    <max-estimate>86400</max-estimate>
+  </task>
+  <task id="t45">
+    <title>项目 Scope</title>
+    <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
+    <effort>7200</effort>
+    <max-estimate>28800</max-estimate>
+    <effort-done>7200</effort-done>
+    <assignment idref="r2"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t51">
+    <title>Logic View</title>
+    <type>group</type>
+    <leveled-start>2014-04-05T06:00:00.000Z</leveled-start>
+    <child-task idref="t44"/>
+  </task>
+  <task id="t53">
+    <title>Process View</title>
+    <type>group</type>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <child-task idref="t40"/>
+  </task>
+  <task id="t54">
+    <title>Development View</title>
+    <type>group</type>
+    <leveled-start>2014-03-23T11:30:00.000Z</leveled-start>
+  </task>
+  <task id="t56">
+    <title>Physical View</title>
+    <type>group</type>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <child-task idref="t57"/>
+  </task>
+  <task id="t57">
+    <title>Deployment Diagram</title>
+    <effort>14400</effort>
+    <max-estimate>28800</max-estimate>
+    <effort-done>14400</effort-done>
+    <assignment idref="r2"/>
+  </task>
+  <task id="t58">
+    <title>项目构建</title>
+    <type>group</type>
+    <leveled-start>2014-04-07T10:30:00.000Z</leveled-start>
+    <child-task idref="t6"/>
+    <child-task idref="t15"/>
+    <child-task idref="t96"/>
+    <prerequisite-task idref="t87"/>
+  </task>
+  <task id="t60">
+    <title>购买机票</title>
+    <type>group</type>
+    <leveled-start>2014-04-27T13:00:00.000Z</leveled-start>
+    <child-task idref="t72"/>
+    <child-task idref="t73"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t63"/>
+  </task>
+  <task id="t61">
+    <title>联通APNS</title>
+    <leveled-start>2014-04-16T11:30:00.000Z</leveled-start>
+    <effort>57600</effort>
+    <min-estimate>28800</min-estimate>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t4"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t62">
+    <title>客户端数据持久化实现</title>
+    <type>group</type>
+    <leveled-start>2014-04-13T08:00:00.000Z</leveled-start>
+    <child-task idref="t99"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+  </task>
+  <task id="t63">
+    <title>订单处理</title>
+    <type>group</type>
+    <leveled-start>2014-04-20T12:30:00.000Z</leveled-start>
+    <child-task idref="t70"/>
+    <child-task idref="t71"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t18"/>
+  </task>
+  <task id="t64">
+    <title>人员组成与分工</title>
+    <leveled-start>2014-03-05T10:49:22.172Z</leveled-start>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <assignment idref="r2"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t65">
+    <title>风险评估</title>
+    <leveled-start>2014-03-05T08:04:22.000Z</leveled-start>
+    <effort>28800</effort>
+    <max-estimate>41400</max-estimate>
+    <effort-done>28800</effort-done>
+    <assignment idref="r2"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t66">
+    <title>进度安排</title>
+    <leveled-start>2014-03-06T10:49:22.000Z</leveled-start>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <prerequisite-task idref="t64"/>
+    <assignment idref="r2"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t70">
+    <title>订单处理界面实现</title>
+    <leveled-start>2014-04-20T12:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t71">
+    <title>订单处理逻辑</title>
+    <leveled-start>2014-04-22T14:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t72">
+    <title>购买机票界面</title>
+    <leveled-start>2014-04-27T13:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t73">
+    <title>购买机票逻辑</title>
+    <leveled-start>2014-04-30T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t74">
+    <title>订阅机票界面</title>
+    <leveled-start>2014-04-20T12:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t75">
+    <title>订阅机票逻辑</title>
+    <leveled-start>2014-04-21T15:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t76">
+    <title>搜索机票界面</title>
+    <leveled-start>2014-04-16T11:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t77">
+    <title>搜索机票逻辑</title>
+    <leveled-start>2014-04-18T14:30:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t81">
+    <title>数据源扩展</title>
+    <type>group</type>
+    <leveled-start>2014-03-29T08:00:10.000Z</leveled-start>
+    <child-task idref="t82"/>
+  </task>
+  <task id="t82">
+    <title>爬虫技术研究</title>
+    <split/>
+    <leveled-start>2014-03-04T00:00:00.000Z</leveled-start>
+    <effort>288000</effort>
+    <min-estimate>0</min-estimate>
+    <effort-done>144000</effort-done>
+    <child-task idref="t119"/>
+    <child-task idref="t120"/>
+  </task>
+  <task id="t83">
+    <title>完成计划</title>
+    <type>milestone</type>
+    <leveled-start>2014-03-07T07:38:44.000Z</leveled-start>
+    <completion-percentage>1</completion-percentage>
+    <prerequisite-task idref="t23"/>
+  </task>
+  <task id="t87">
+    <title>完成设计</title>
+    <type>milestone</type>
+    <leveled-start>2014-04-05T03:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t95"/>
+  </task>
+  <task id="t88">
+    <title>产品测试</title>
+    <type>group</type>
+    <leveled-start>2014-04-26T06:30:00.000Z</leveled-start>
+    <prerequisite-task idref="t90"/>
+  </task>
+  <task id="t89">
+    <title>产品部署</title>
+    <type>group</type>
+    <leveled-start>2014-04-26T06:30:00.000Z</leveled-start>
+    <prerequisite-task idref="t91"/>
+  </task>
+  <task id="t90">
+    <title>完成构建</title>
+    <type>milestone</type>
+    <leveled-start>2014-04-26T06:30:00.000Z</leveled-start>
+    <prerequisite-task idref="t58"/>
+  </task>
+  <task id="t91">
+    <title>完成测试</title>
+    <type>milestone</type>
+    <leveled-start>2014-04-26T06:30:00.000Z</leveled-start>
+    <prerequisite-task idref="t88"/>
+  </task>
+  <task id="t93">
+    <title>完成需求分析</title>
+    <type>milestone</type>
+    <leveled-start>2014-03-09T12:30:00.000Z</leveled-start>
+    <completion-percentage>1</completion-percentage>
+    <prerequisite-task idref="t24"/>
+  </task>
+  <task id="t94">
+    <title>完成概要设计</title>
+    <type>milestone</type>
+    <leveled-start>2014-03-23T11:30:00.000Z</leveled-start>
+    <completion-percentage>1</completion-percentage>
+    <prerequisite-task idref="t28"/>
+  </task>
+  <task id="t95">
+    <title>完成详细设计</title>
+    <type>milestone</type>
+    <leveled-start>2014-04-05T03:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t30"/>
+  </task>
+  <task id="t96">
+    <title>Web 宣传页</title>
+    <type>group</type>
+    <leveled-start>2014-04-05T05:00:00.000Z</leveled-start>
+    <child-task idref="t97"/>
+    <child-task idref="t98"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0.501961" b="0"/>
+      </value>
+    </style>
+  </task>
+  <task id="t97">
+    <title>web 页面设计</title>
+    <leveled-start>2014-04-05T05:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <max-estimate>86400</max-estimate>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0.501961" b="0"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t98">
+    <title>web 页面实现</title>
+    <leveled-start>2014-04-08T13:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0.501961" b="0"/>
+      </value>
+    </style>
+    <prerequisite-task idref="t97"/>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t99">
+    <title>联系人信息生成</title>
+    <leveled-start>2014-04-13T08:00:00.000Z</leveled-start>
+    <effort>57600</effort>
+    <min-estimate>28800</min-estimate>
+    <effort-done>43200</effort-done>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t119">
+    <title>爬虫技术研究</title>
+    <leveled-start>2014-03-25T08:30:00.000Z</leveled-start>
+    <effort>144000</effort>
+    <min-estimate>0</min-estimate>
+    <max-estimate>288000</max-estimate>
+    <effort-done>144000</effort-done>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t120">
+    <title>爬虫技术研究</title>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <effort>144000</effort>
+    <min-estimate>0</min-estimate>
+    <max-estimate>288000</max-estimate>
+    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="true" resources="true">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Mark Young" date="2014-03-04T11:22:34.158Z" timestamp="2014-03-04T11:22:34.158Z">
+    <change idref="t17" to="t15" to-position="3">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="289800"/>
+      <change idref="t17" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}"/>
+      <change idref="t17" attribute="title" type="string" to="iOS 界面设计"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-05T06:33:54.344Z" timestamp="2014-03-05T06:33:54.344Z">
+    <change idref="t46" to="t28" to-position="0">
+      <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t46" attribute="title" type="string" to="架构建模 STD *"/>
+    </change>
+    <change idref="t34" to="t31" to-position="1">
+      <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t34" attribute="title" type="string" to="客户端数据库设计 ERD"/>
+    </change>
+    <change idref="t47" to="t51" to-position="1">
+      <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t47" attribute="title" type="string" to="Sequence Diagram"/>
+    </change>
+    <change idref="t48" to="t51" to-position="2">
+      <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t48" attribute="title" type="string" to="Object Diagram"/>
+    </change>
+    <change idref="t52" to="t51" to-position="3">
+      <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t52" attribute="title" type="string" to="State Machine Diagram"/>
+    </change>
+    <change idref="t49" to="t54" to-position="0">
+      <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t49" attribute="title" type="string" to="Component Diagram"/>
+    </change>
+    <change idref="t55" to="t54" to-position="1">
+      <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-05T00:00:00.000Z"/>
+      <change idref="t55" attribute="title" type="string" to="Package Diagram"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-10T01:28:00.961Z" timestamp="2014-03-10T01:28:00.961Z">
+    <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-11T00:00:00.000Z"/>
+    <change idref="t100" to="t42" to-position="0">
+      <change idref="t100" attribute="effort" type="real" from="28800" to="4285"/>
+      <change idref="t100" attribute="internalAssignments" type="string" from="" to="5"/>
+      <change idref="t100" attribute="internalEffortDone" type="real" from="0" to="4285"/>
+      <change idref="t100" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="resourceLeveledDate" type="date" to="2014-03-09T12:30:00.000Z"/>
+      <change idref="t100" attribute="title" type="string" to="界面设计 #1"/>
+    </change>
+    <change idref="t101" to="t42" to-position="1">
+      <change idref="t101" attribute="effort" type="real" from="28800" to="53315"/>
+      <change idref="t101" attribute="internalAssignments" type="string" from="" to="5"/>
+      <change idref="t101" attribute="internalEffortDone" type="real" from="0" to="53315"/>
+      <change idref="t101" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-11T00:00:00.000Z"/>
+      <change idref="t101" attribute="resourceLeveledDate" type="date" to="2014-03-09T12:30:00.000Z"/>
+      <change idref="t101" attribute="title" type="string" to="界面设计 #2"/>
+    </change>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-11T00:00:00.000Z"/>
+    <change idref="t84" attribute="percentCompleteForMilestone" type="real" from="0" to="1"/>
+    <change idref="t86" attribute="percentCompleteForMilestone" type="real" from="0" to="1"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-15T04:23:58.608Z" timestamp="2014-03-15T04:23:58.608Z">
+    <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-11T00:00:00.000Z" to="2014-03-16T00:00:00.000Z"/>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-11T00:00:00.000Z" to="2014-03-16T00:00:00.000Z"/>
+    <change idref="t100" attribute="title" type="string" from="界面设计" to="界面设计 #1"/>
+    <change idref="t100" attribute="isSplitChunk" type="real" from="0" to="1"/>
+    <change idref="t100" attribute="internalAssignments" type="string" from="" to="5"/>
+    <change idref="t101" attribute="title" type="string" from="界面设计" to="界面设计 #2"/>
+    <change idref="t101" attribute="isSplitChunk" type="real" from="0" to="1"/>
+    <change idref="t101" attribute="internalAssignments" type="string" from="" to="5"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-19T14:34:10.306Z" timestamp="2014-03-19T14:34:10.306Z">
+    <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-16T00:00:00.000Z" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-16T00:00:00.000Z" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t40" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t44" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-16T00:00:00.000Z" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-16T00:00:00.000Z" to="2014-03-20T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-27T00:21:57.577Z" timestamp="2014-03-27T00:21:57.577Z">
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="internalEffortDone" type="real" from="33300" to="72000" resolved="yes"/>
+    <change idref="t34" from="t31" from-position="1" resolved="yes">
+      <change idref="t34" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t34" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-20T02:00:00.000Z"/>
+      <change idref="t34" attribute="resourceLeveledDate" type="date" to="2014-03-10T02:00:00.000Z"/>
+      <change idref="t34" attribute="title" type="string" to="客户端数据库设计 ERD"/>
+    </change>
+    <change idref="t33" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t40" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t44" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" to="2014-03-25T08:30:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="internalEffortDone" type="real" from="0" to="90000" resolved="yes"/>
+    <change idref="t98" attribute="internalEffortDone" type="real" from="18685" to="21600" resolved="yes"/>
+    <change idref="t99" attribute="title" type="string" from="用户生成" to="联系人信息生成" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-03-27T00:24:44.730Z" timestamp="2014-03-27T00:24:44.730Z">
+    <change idref="t4" attribute="title" type="string" from="Apple Notification Push Server后台" to="Apple Push Notification Server后台" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T02:21:23.125Z" timestamp="2014-04-02T02:21:23.125Z">
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t40" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t44" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z"/>
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-25T08:30:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t109" to="t82" to-position="0">
+      <change idref="t109" attribute="effort" type="real" from="28800" to="90000"/>
+      <change idref="t109" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t109" attribute="internalEffortDone" type="real" from="0" to="90000"/>
+      <change idref="t109" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-25T08:30:00.000Z"/>
+      <change idref="t109" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t109" attribute="title" type="string" to="爬虫技术研究 #1"/>
+    </change>
+    <change idref="t110" to="t82" to-position="1">
+      <change idref="t110" attribute="effort" type="real" from="28800" to="198000"/>
+      <change idref="t110" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t110" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t110" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t110" attribute="title" type="string" to="爬虫技术研究 #2"/>
+    </change>
+    <change idref="t99" attribute="internalEffortDone" type="real" from="0" to="43200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T02:28:37.580Z" timestamp="2014-04-02T02:28:37.580Z">
+    <change idref="t82" attribute="internalEffortDone" type="real" from="90000" to="144000" resolved="yes"/>
+    <change idref="t110" attribute="internalEffortDone" type="real" from="0" to="54000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:09:45.912Z" timestamp="2014-04-02T03:09:45.912Z">
+    <change idref="t46" from="t28" from-position="0" resolved="yes">
+      <change idref="t46" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t46" attribute="resourceLeveledDate" type="date" to="2014-03-09T12:30:00.000Z"/>
+      <change idref="t46" attribute="title" type="string" to="架构建模 STD *"/>
+    </change>
+    <change idref="t33" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t94" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-25T08:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:10:33.803Z" timestamp="2014-04-02T03:10:33.803Z">
+    <change idref="t42" attribute="internalAssignments" type="string" from="5" to="" resolved="yes"/>
+    <change idref="t42" attribute="internalEffortDone" type="real" from="57600" to="0" resolved="yes"/>
+    <change idref="t81" from="t-1" from-position="9" to="t58" to-position="3" resolved="yes"/>
+    <change idref="t82" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t110" from="t82" from-position="1" resolved="yes">
+      <change idref="t110" attribute="effort" type="real" from="28800" to="198000"/>
+      <change idref="t110" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t110" attribute="internalEffortDone" type="real" from="0" to="54000"/>
+      <change idref="t110" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t110" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t110" attribute="title" type="string" to="爬虫技术研究 #2"/>
+    </change>
+    <change idref="t109" from="t82" from-position="0" resolved="yes">
+      <change idref="t109" attribute="effort" type="real" from="28800" to="90000"/>
+      <change idref="t109" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t109" attribute="internalEffortDone" type="real" from="0" to="90000"/>
+      <change idref="t109" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t109" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t109" attribute="title" type="string" to="爬虫技术研究 #1"/>
+    </change>
+    <change idref="t100" attribute="title" type="string" from="界面设计" to="界面设计 #1" resolved="yes"/>
+    <change idref="t100" attribute="effort" type="real" from="57600" to="4285" resolved="yes"/>
+    <change idref="t100" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t100" attribute="internalEffortDone" type="real" from="57600" to="4285" resolved="yes"/>
+    <change idref="t101" attribute="title" type="string" from="界面设计" to="界面设计 #2" resolved="yes"/>
+    <change idref="t101" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t101" attribute="internalAssignments" type="string" from="" to="5" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:12:26.688Z" timestamp="2014-04-02T03:12:26.688Z">
+    <change idref="t2" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t115" to="t2" to-position="0" resolved="yes">
+      <change idref="t115" attribute="effort" type="real" from="28800" to="88200"/>
+      <change idref="t115" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t115" attribute="internalEffortDone" type="real" from="0" to="88200"/>
+      <change idref="t115" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t115" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t115" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}"/>
+      <change idref="t115" attribute="title" type="string" to="PHP后台联通携程API #1"/>
+    </change>
+    <change idref="t116" to="t2" to-position="1" resolved="yes">
+      <change idref="t116" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t116" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t116" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t116" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t116" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t116" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}"/>
+      <change idref="t116" attribute="title" type="string" to="PHP后台联通携程API #2"/>
+    </change>
+    <change idref="t16" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t119" to="t16" to-position="0" resolved="yes">
+      <change idref="t119" attribute="effort" type="real" from="28800" to="72000"/>
+      <change idref="t119" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t119" attribute="internalEffortDone" type="real" from="0" to="72000"/>
+      <change idref="t119" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t119" attribute="resourceLeveledDate" type="date" to="2014-03-24T02:45:00.000Z"/>
+      <change idref="t119" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}"/>
+      <change idref="t119" attribute="title" type="string" to="测试携程 API 联通 #1"/>
+    </change>
+    <change idref="t120" to="t16" to-position="1" resolved="yes">
+      <change idref="t120" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t120" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t120" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t120" attribute="resourceLeveledDate" type="date" to="2014-03-24T02:45:00.000Z"/>
+      <change idref="t120" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}"/>
+      <change idref="t120" attribute="title" type="string" to="测试携程 API 联通 #2"/>
+    </change>
+    <change idref="t42" attribute="internalAssignments" type="string" from="" to="5" resolved="yes"/>
+    <change idref="t42" attribute="internalEffortDone" type="real" from="0" to="57600" resolved="yes"/>
+    <change idref="t101" from="t42" from-position="1" to="t42" to-position="0" resolved="yes"/>
+    <change idref="t58" attribute="internalPrerequisitesString" type="string" from="87FS" resolved="yes"/>
+    <change idref="t82" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t113" to="t82" to-position="0" resolved="yes">
+      <change idref="t113" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t113" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t113" attribute="internalEffortDone" type="real" from="0" to="144000"/>
+      <change idref="t113" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t113" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t113" attribute="title" type="string" to="爬虫技术研究 #1"/>
+    </change>
+    <change idref="t114" to="t82" to-position="1" resolved="yes">
+      <change idref="t114" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t114" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t114" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t114" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t114" attribute="resourceLeveledDate" type="date" to="2014-03-06T02:00:00.000Z"/>
+      <change idref="t114" attribute="title" type="string" to="爬虫技术研究 #2"/>
+    </change>
+    <change idref="t99" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t117" to="t99" to-position="0" resolved="yes">
+      <change idref="t117" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t117" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t117" attribute="internalEffortDone" type="real" from="0" to="43200"/>
+      <change idref="t117" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t117" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t117" attribute="title" type="string" to="联系人信息生成 #1"/>
+    </change>
+    <change idref="t118" to="t99" to-position="1" resolved="yes">
+      <change idref="t118" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t118" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t118" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t118" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t118" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t118" attribute="title" type="string" to="联系人信息生成 #2"/>
+    </change>
+    <change idref="t100" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t100" attribute="title" type="string" from="界面设计 #1" to="界面设计 #2" resolved="yes"/>
+    <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="title" type="string" from="界面设计 #2" to="界面设计 #1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:13:41.121Z" timestamp="2014-04-02T03:13:41.121Z">
+    <change idref="t16" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t16" attribute="internalEffortDone" type="real" from="72000" to="0" resolved="yes"/>
+    <change idref="t94" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t99" attribute="internalAssignments" type="string" from="4" to="" resolved="yes"/>
+    <change idref="t99" attribute="internalEffortDone" type="real" from="43200" to="0" resolved="yes"/>
+    <change idref="t117" attribute="title" type="string" from="联系人信息生成" to="联系人信息生成 #1" resolved="yes"/>
+    <change idref="t117" attribute="effort" type="real" from="57600" to="43200" resolved="yes"/>
+    <change idref="t117" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t118" attribute="title" type="string" from="联系人信息生成" to="联系人信息生成 #2" resolved="yes"/>
+    <change idref="t118" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t118" attribute="internalAssignments" type="string" from="" to="4" resolved="yes"/>
+    <change idref="t119" attribute="title" type="string" from="测试携程 API 联通" to="测试携程 API 联通 #1" resolved="yes"/>
+    <change idref="t119" attribute="effort" type="real" from="115200" to="72000" resolved="yes"/>
+    <change idref="t119" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t119" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}" resolved="yes"/>
+    <change idref="t120" attribute="title" type="string" from="测试携程 API 联通" to="测试携程 API 联通 #2" resolved="yes"/>
+    <change idref="t120" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t120" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:15:30.955Z" timestamp="2014-04-02T03:15:30.955Z">
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" to="46800" resolved="yes"/>
+    <change idref="t16" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t16" attribute="internalEffortDone" type="real" from="0" to="72000" resolved="yes"/>
+    <change idref="t120" from="t16" from-position="1" resolved="yes">
+      <change idref="t120" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t120" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t120" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t120" attribute="resourceLeveledDate" type="date" to="2014-03-24T02:45:00.000Z"/>
+      <change idref="t120" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}"/>
+      <change idref="t120" attribute="title" type="string" to="测试携程 API 联通 #2"/>
+    </change>
+    <change idref="t119" from="t16" from-position="0" resolved="yes">
+      <change idref="t119" attribute="effort" type="real" from="28800" to="72000"/>
+      <change idref="t119" attribute="internalEffortDone" type="real" from="0" to="72000"/>
+      <change idref="t119" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t119" attribute="resourceLeveledDate" type="date" to="2014-03-24T02:45:00.000Z"/>
+      <change idref="t119" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = &quot;0.501961&quot;;
+        g = 0;
+        r = 1;
+    };
+}"/>
+      <change idref="t119" attribute="title" type="string" to="测试携程 API 联通 #1"/>
+    </change>
+    <change idref="t52" from="t51" from-position="3" resolved="yes">
+      <change idref="t52" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t52" attribute="resourceLeveledDate" type="date" to="2014-03-15T06:30:00.000Z"/>
+      <change idref="t52" attribute="title" type="string" to="State Machine Diagram"/>
+    </change>
+    <change idref="t48" from="t51" from-position="2" resolved="yes">
+      <change idref="t48" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t48" attribute="resourceLeveledDate" type="date" to="2014-03-15T06:30:00.000Z"/>
+      <change idref="t48" attribute="title" type="string" to="Object Diagram"/>
+    </change>
+    <change idref="t47" from="t51" from-position="1" resolved="yes">
+      <change idref="t47" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t47" attribute="resourceLeveledDate" type="date" to="2014-03-15T06:30:00.000Z"/>
+      <change idref="t47" attribute="title" type="string" to="Sequence Diagram"/>
+    </change>
+    <change idref="t55" from="t54" from-position="1" resolved="yes">
+      <change idref="t55" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t55" attribute="resourceLeveledDate" type="date" to="2014-03-15T06:30:00.000Z"/>
+      <change idref="t55" attribute="title" type="string" to="Package Diagram"/>
+    </change>
+    <change idref="t49" from="t54" from-position="0" resolved="yes">
+      <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t49" attribute="resourceLeveledDate" type="date" to="2014-03-15T06:30:00.000Z"/>
+      <change idref="t49" attribute="title" type="string" to="Component Diagram"/>
+    </change>
+    <change idref="t57" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t99" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t99" attribute="internalEffortDone" type="real" from="0" to="43200" resolved="yes"/>
+    <change idref="t118" from="t99" from-position="1" resolved="yes">
+      <change idref="t118" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t118" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t118" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t118" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t118" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t118" attribute="title" type="string" to="联系人信息生成 #2"/>
+    </change>
+    <change idref="t117" from="t99" from-position="0" resolved="yes">
+      <change idref="t117" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t117" attribute="internalEffortDone" type="real" from="0" to="43200"/>
+      <change idref="t117" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t117" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t117" attribute="title" type="string" to="联系人信息生成 #1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:15:46.985Z" timestamp="2014-04-02T03:15:46.985Z">
+    <change idref="t2" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t116" from="t2" from-position="1" resolved="yes">
+      <change idref="t116" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t116" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t116" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t116" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t116" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t116" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}"/>
+      <change idref="t116" attribute="title" type="string" to="PHP后台联通携程API #2"/>
+    </change>
+    <change idref="t115" from="t2" from-position="0" resolved="yes">
+      <change idref="t115" attribute="effort" type="real" from="28800" to="88200"/>
+      <change idref="t115" attribute="internalAssignments" type="string" from="" to="2"/>
+      <change idref="t115" attribute="internalEffortDone" type="real" from="0" to="88200"/>
+      <change idref="t115" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t115" attribute="resourceLeveledDate" type="date" to="2014-03-17T11:00:00.000Z"/>
+      <change idref="t115" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.501961&quot;;
+        r = 0;
+    };
+}"/>
+      <change idref="t115" attribute="title" type="string" to="PHP后台联通携程API #1"/>
+    </change>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-04-03T10:30:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2014-03-27T11:00:00.000Z" to="2014-04-07T11:30:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="resourceLeveledDate" type="date" from="2014-03-24T02:45:00.000Z" to="2014-04-07T02:00:00.000Z" resolved="yes"/>
+    <change idref="t40" attribute="resourceLeveledDate" type="date" from="2014-03-15T06:30:00.000Z" to="2014-04-07T02:00:00.000Z" resolved="yes"/>
+    <change idref="t42" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-11T00:00:00.000Z" resolved="yes"/>
+    <change idref="t42" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t100" from="t42" from-position="1" resolved="yes">
+      <change idref="t100" attribute="effort" type="real" from="28800" to="4285"/>
+      <change idref="t100" attribute="internalEffortDone" type="real" from="0" to="4285"/>
+      <change idref="t100" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-03T02:00:00.000Z"/>
+      <change idref="t100" attribute="resourceLeveledDate" type="date" to="2014-04-02T12:48:35.000Z"/>
+      <change idref="t100" attribute="title" type="string" to="界面设计 #2"/>
+    </change>
+    <change idref="t101" from="t42" from-position="0" resolved="yes">
+      <change idref="t101" attribute="effort" type="real" from="28800" to="53315"/>
+      <change idref="t101" attribute="internalAssignments" type="string" from="" to="5"/>
+      <change idref="t101" attribute="internalEffortDone" type="real" from="0" to="53315"/>
+      <change idref="t101" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" to="2014-03-11T00:00:00.000Z"/>
+      <change idref="t101" attribute="resourceLeveledDate" type="date" to="2014-03-11T12:00:00.000Z"/>
+      <change idref="t101" attribute="title" type="string" to="界面设计 #1"/>
+    </change>
+    <change idref="t44" attribute="resourceLeveledDate" type="date" from="2014-03-15T06:30:00.000Z" to="2014-04-07T02:00:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="resourceLeveledDate" type="date" from="2014-03-28T08:45:00.000Z" to="2014-04-10T08:30:00.000Z" resolved="yes"/>
+    <change idref="t70" attribute="resourceLeveledDate" type="date" from="2014-03-30T12:00:00.000Z" to="2014-04-11T14:30:00.000Z" resolved="yes"/>
+    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2014-04-01T14:00:00.000Z" to="2014-04-14T14:30:00.000Z" resolved="yes"/>
+    <change idref="t72" attribute="resourceLeveledDate" type="date" from="2014-04-06T13:00:00.000Z" to="2014-04-18T13:30:00.000Z" resolved="yes"/>
+    <change idref="t73" attribute="resourceLeveledDate" type="date" from="2014-04-09T15:00:00.000Z" to="2014-04-23T13:30:00.000Z" resolved="yes"/>
+    <change idref="t74" attribute="resourceLeveledDate" type="date" from="2014-03-30T06:45:00.000Z" to="2014-04-11T14:30:00.000Z" resolved="yes"/>
+    <change idref="t75" attribute="resourceLeveledDate" type="date" from="2014-03-31T02:45:00.000Z" to="2014-04-12T13:30:00.000Z" resolved="yes"/>
+    <change idref="t76" attribute="resourceLeveledDate" type="date" from="2014-03-28T08:45:00.000Z" to="2014-04-09T13:30:00.000Z" resolved="yes"/>
+    <change idref="t77" attribute="resourceLeveledDate" type="date" from="2014-03-29T07:45:00.000Z" to="2014-04-10T08:30:00.000Z" resolved="yes"/>
+    <change idref="t82" attribute="resourceLeveledDate" type="date" from="2014-03-06T02:00:00.000Z" to="2014-03-04T00:00:00.000Z" resolved="yes"/>
+    <change idref="t87" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-04-05T03:00:00.000Z" resolved="yes"/>
+    <change idref="t90" attribute="resourceLeveledDate" type="date" from="2014-03-31T08:00:00.000Z" to="2014-04-13T14:30:00.000Z" resolved="yes"/>
+    <change idref="t91" attribute="resourceLeveledDate" type="date" from="2014-03-31T08:00:00.000Z" to="2014-04-13T14:30:00.000Z" resolved="yes"/>
+    <change idref="t95" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-04-05T03:00:00.000Z" resolved="yes"/>
+    <change idref="t98" attribute="resourceLeveledDate" type="date" from="2014-03-19T14:00:00.000Z" to="2014-04-08T13:00:00.000Z" resolved="yes"/>
+    <change idref="t99" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-04-07T02:00:00.000Z" resolved="yes"/>
+    <change idref="t114" attribute="resourceLeveledDate" type="date" from="2014-03-06T02:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:18:02.014Z" timestamp="2014-04-02T03:18:02.014Z">
+    <change idref="t93" attribute="percentCompleteForMilestone" type="real" from="1" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:18:21.999Z" timestamp="2014-04-02T03:18:21.999Z">
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" from="2014-04-03T02:00:00.000Z" to="2014-03-28T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:18:27.612Z" timestamp="2014-04-02T03:18:27.612Z">
+    <change idref="t57" attribute="noEarlierThanConstraintDate" type="date" from="2014-03-28T00:00:00.000Z" to="2014-04-03T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:18:49.228Z" timestamp="2014-04-02T03:18:49.228Z">
+    <change idref="t93" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-02T03:19:55.542Z" timestamp="2014-04-02T03:19:55.542Z">
+    <change idref="t2" attribute="resourceLeveledDate" type="date" from="2014-03-17T11:00:00.000Z" to="2014-03-30T10:30:00.000Z" resolved="yes"/>
+    <change idref="t90" attribute="resourceLeveledDate" type="date" from="2014-04-13T14:30:00.000Z" to="2014-04-12T11:00:00.000Z" resolved="yes"/>
+    <change idref="t91" attribute="resourceLeveledDate" type="date" from="2014-04-13T14:30:00.000Z" to="2014-04-12T11:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Mark Young" date="2014-03-05T14:12:47.560Z" timestamp="2014-03-05T14:12:47.560Z">
+    <change idref="r3" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="75600,82800;75600,82800;75600,82800;75600,82800;75600,82800;75600,82800;"/>
+  </resource-change-set>
+</changelog>
