@@ -7,18 +7,18 @@
     <draw-folded/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>442</split-view-divider-position>
-      <outline x="0.5" y="148" w="442" h="681">
+      <split-view-divider-position>502</split-view-divider-position>
+      <outline x="0" y="0" w="502" h="681">
         <column name="Violations" width="20"/>
         <column name="Status" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="275"/>
+        <column name="Title" width="237"/>
         <column name="Effort" width="111"/>
         <column name="%Done" width="87"/>
-        <expanded-items idrefs="t18 t30 t81 t58 t53 t89 t31 t20 t62 t51 t167 t6 t56 t60 t96 t54 t15 t63 t36"/>
-        <selected-items-at-filter-time idrefs="t168 t83 t91 t172 t96 t88 t166 t170 t97 t89 t164 t142 t169 t93 t173 t162 t151 t140 t98 t167 t94 t171 t139 t90 t99 t165 t95 t87 t163 t141"/>
+        <expanded-items idrefs="t18 t180 t81 t58 t20 t62 t167 t6 t96 t162 t15 t189 t63"/>
+        <selected-items-at-filter-time idrefs="t191"/>
       </outline>
-      <gantt-view x="2232" y="148" w="997" h="681">
+      <gantt-view x="1872" y="0" w="937" h="681">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -71,7 +71,7 @@
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-39" y="0" w="1105" h="681">
+      <timeline x="4033.5" y="0" w="1105" h="681">
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
@@ -100,7 +100,7 @@
         <task-bar-label task-type="task" position="right">
           <key/>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="51.8389">
+        <scale scale-name="Automatic" full-day-width="236.527">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -114,11 +114,11 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="670">
+      <outline x="0" y="0" w="290" h="666">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="139"/>
+        <column name="Resource" width="154"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -126,7 +126,7 @@
   </window>
   <project>
     <title>TiCheck Project</title>
-    <next-task-id>174</next-task-id>
+    <next-task-id>192</next-task-id>
     <next-resource-id>8</next-resource-id>
     <scenario id="gXCqfbWaRc4" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="false" seconds="false"/>

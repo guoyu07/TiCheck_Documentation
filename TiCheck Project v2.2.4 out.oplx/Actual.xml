@@ -284,18 +284,13 @@
     <child-task idref="t58"/>
     <child-task idref="t90"/>
     <child-task idref="t91"/>
-    <child-task idref="t89"/>
+    <child-task idref="t189"/>
   </task>
   <task id="t2">
     <title>PHP后台联通携程API</title>
-    <split/>
     <leveled-start>2014-03-31T02:00:00.000Z</leveled-start>
     <effort>115200</effort>
-    <min-estimate>0</min-estimate>
-    <max-estimate>207000</max-estimate>
-    <effort-done>88200</effort-done>
-    <child-task idref="t158"/>
-    <child-task idref="t159"/>
+    <effort-done>115200</effort-done>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
@@ -308,29 +303,26 @@
     <effort>201600</effort>
     <min-estimate>28800</min-estimate>
     <effort-done>40319.99609375</effort-done>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
       </value>
     </style>
     <assignment idref="r1"/>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t5">
     <title>服务器数据库实现</title>
-    <leveled-start>2014-04-06T14:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-07T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <min-estimate>3600</min-estimate>
     <max-estimate>124200</max-estimate>
-    <start-constraint-date>2014-04-04T00:00:00.000Z</start-constraint-date>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
       </value>
     </style>
     <assignment idref="r2"/>
-    <start-no-earlier-than>2014-04-04T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>PHP后台</title>
@@ -352,7 +344,7 @@
     <effort>201600</effort>
     <min-estimate>28800</min-estimate>
     <max-estimate>331200</max-estimate>
-    <start-constraint-date>2014-04-06T08:30:00.000Z</start-constraint-date>
+    <effort-done>18144</effort-done>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
@@ -362,20 +354,19 @@
     <prerequisite-task idref="t5"/>
     <assignment idref="r2"/>
     <assignment idref="r6"/>
-    <start-no-earlier-than>2014-04-06T08:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t15">
     <title>iOS 前台</title>
     <type>group</type>
     <leveled-start>2014-04-07T02:00:00.000Z</leveled-start>
-    <child-task idref="t62"/>
+    <child-task idref="t61"/>
     <child-task idref="t16"/>
+    <child-task idref="t62"/>
     <child-task idref="t162"/>
     <child-task idref="t18"/>
-    <child-task idref="t20"/>
-    <child-task idref="t61"/>
+    <child-task idref="t180"/>
     <child-task idref="t63"/>
-    <child-task idref="t60"/>
+    <child-task idref="t20"/>
     <child-task idref="t167"/>
     <style>
       <value key="font-fill">
@@ -385,11 +376,11 @@
   </task>
   <task id="t16">
     <title>测试携程 API 联通</title>
-    <leveled-start>2014-04-09T02:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-07T02:00:00.000Z</leveled-start>
     <effort>115200</effort>
     <min-estimate>0</min-estimate>
     <max-estimate>207000</max-estimate>
-    <effort-done>72000</effort-done>
+    <effort-done>85248</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -400,7 +391,7 @@
   <task id="t18">
     <title>搜索机票</title>
     <type>group</type>
-    <leveled-start>2014-04-13T05:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <child-task idref="t76"/>
     <child-task idref="t77"/>
     <style>
@@ -411,9 +402,9 @@
     <prerequisite-task idref="t16"/>
   </task>
   <task id="t20">
-    <title>订阅机票</title>
+    <title>订阅模块</title>
     <type>group</type>
-    <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-17T02:00:00.000Z</leveled-start>
     <child-task idref="t74"/>
     <child-task idref="t75"/>
     <style>
@@ -432,25 +423,14 @@
     <child-task idref="t15"/>
     <child-task idref="t96"/>
     <child-task idref="t81"/>
-  </task>
-  <task id="t60">
-    <title>购买机票</title>
-    <type>group</type>
-    <leveled-start>2014-04-21T13:00:00.000Z</leveled-start>
-    <child-task idref="t72"/>
-    <child-task idref="t73"/>
-    <style>
-      <value key="font-fill">
-        <color r="1" g="0" b="0.501961"/>
-      </value>
-    </style>
-    <prerequisite-task idref="t63"/>
+    <prerequisite-task idref="t87"/>
   </task>
   <task id="t61">
     <title>联通APNS</title>
-    <leveled-start>2014-04-13T12:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-11T00:00:00.000Z</leveled-start>
     <effort>57600</effort>
     <min-estimate>0</min-estimate>
+    <effort-done>11519.9993133545</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -462,7 +442,7 @@
   <task id="t62">
     <title>客户端数据持久化实现</title>
     <type>group</type>
-    <leveled-start>2014-04-07T02:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-10T02:00:00.000Z</leveled-start>
     <child-task idref="t99"/>
     <style>
       <value key="font-fill">
@@ -471,11 +451,12 @@
     </style>
   </task>
   <task id="t63">
-    <title>机票结果</title>
+    <title>订单模块</title>
     <type>group</type>
-    <leveled-start>2014-04-14T12:00:00.000Z</leveled-start>
-    <child-task idref="t70"/>
-    <child-task idref="t173"/>
+    <leveled-start>2014-04-18T12:00:00.000Z</leveled-start>
+    <child-task idref="t183"/>
+    <child-task idref="t184"/>
+    <child-task idref="t185"/>
     <child-task idref="t71"/>
     <style>
       <value key="font-fill">
@@ -486,47 +467,25 @@
   </task>
   <task id="t70">
     <title>机票结果界面</title>
-    <leveled-start>2014-04-18T12:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-12T15:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
       </value>
     </style>
-    <assignment idref="r5"/>
+    <assignment idref="r4"/>
   </task>
   <task id="t71">
     <title>订单处理逻辑</title>
-    <leveled-start>2014-04-20T15:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-19T11:30:00.000Z</leveled-start>
     <effort>28800</effort>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
       </value>
     </style>
-    <assignment idref="r5"/>
-  </task>
-  <task id="t72">
-    <title>购买机票界面</title>
-    <leveled-start>2014-04-24T13:00:00.000Z</leveled-start>
-    <effort>28800</effort>
-    <style>
-      <value key="font-fill">
-        <color r="1" g="0" b="0.501961"/>
-      </value>
-    </style>
-    <assignment idref="r3"/>
-  </task>
-  <task id="t73">
-    <title>购买机票逻辑</title>
-    <leveled-start>2014-04-28T15:00:00.000Z</leveled-start>
-    <effort>28800</effort>
-    <style>
-      <value key="font-fill">
-        <color r="1" g="0" b="0.501961"/>
-      </value>
-    </style>
-    <assignment idref="r3"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t74">
     <title>订阅机票界面</title>
@@ -556,6 +515,7 @@
     <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <max-estimate>50400</max-estimate>
+    <effort-done>18000</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -567,6 +527,7 @@
     <title>搜索机票逻辑</title>
     <leveled-start>2014-04-16T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>5759.99965667725</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -577,7 +538,7 @@
   <task id="t81">
     <title>数据源扩展</title>
     <type>group</type>
-    <leveled-start>2014-04-05T00:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <child-task idref="t82"/>
     <style>
       <value key="font-fill">
@@ -590,7 +551,7 @@
     <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <effort>288000</effort>
     <min-estimate>0</min-estimate>
-    <effort-done>57599.99609375</effort-done>
+    <effort-done>144000</effort-done>
     <style>
       <value key="font-fill">
         <color r="0.501961" g="0" b="1"/>
@@ -601,31 +562,29 @@
   <task id="t83">
     <title>完成计划</title>
     <type>milestone</type>
-    <leveled-start>2014-03-08T12:00:00.000Z</leveled-start>
     <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2014-03-13T02:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2014-03-13T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t87">
     <title>完成设计</title>
     <type>milestone</type>
-    <leveled-start>2014-05-04T12:00:00.000Z</leveled-start>
-  </task>
-  <task id="t89">
-    <title>产品部署</title>
-    <type>group</type>
-    <leveled-start>2014-05-05T02:00:00.000Z</leveled-start>
-    <child-task idref="t151"/>
-    <prerequisite-task idref="t91"/>
+    <completion-percentage>1</completion-percentage>
+    <start-constraint-date>2014-03-31T02:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t83"/>
+    <start-no-earlier-than>2014-03-31T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t90">
     <title>完成构建</title>
     <type>milestone</type>
-    <leveled-start>2014-04-28T15:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-23T15:00:00.000Z</leveled-start>
     <prerequisite-task idref="t58"/>
   </task>
   <task id="t91">
     <title>完成测试</title>
     <type>milestone</type>
-    <leveled-start>2014-05-04T16:00:00.000Z</leveled-start>
+    <leveled-start>2014-04-23T15:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t90"/>
   </task>
   <task id="t96">
     <title>Web 宣传页</title>
@@ -670,97 +629,211 @@
     <leveled-start>2014-04-10T02:00:00.000Z</leveled-start>
     <effort>57600</effort>
     <min-estimate>0</min-estimate>
-    <effort-done>43200</effort-done>
+    <effort-done>57600</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
     <assignment idref="r1"/>
-  </task>
-  <task id="t151">
-    <title>申请审核</title>
-    <leveled-start>2014-05-05T02:00:00.000Z</leveled-start>
-    <effort>201600</effort>
-    <min-estimate>28800</min-estimate>
-    <assignment idref="r4"/>
-  </task>
-  <task id="t158">
-    <title>PHP后台联通携程API</title>
-    <leveled-start>2014-03-31T02:00:00.000Z</leveled-start>
-    <effort>88200</effort>
-    <min-estimate>0</min-estimate>
-    <max-estimate>207000</max-estimate>
-    <effort-done>88200</effort-done>
-    <style>
-      <value key="font-fill">
-        <color r="0" g="0.501961" b="1"/>
-      </value>
-    </style>
-  </task>
-  <task id="t159">
-    <title>PHP后台联通携程API</title>
-    <leveled-start>2014-04-05T05:00:00.000Z</leveled-start>
-    <effort>27000</effort>
-    <min-estimate>0</min-estimate>
-    <max-estimate>207000</max-estimate>
-    <start-constraint-date>2014-04-04T00:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color r="0" g="0.501961" b="1"/>
-      </value>
-    </style>
-    <assignment idref="r2"/>
-    <start-no-earlier-than>2014-04-04T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t162">
     <title>登录注册</title>
-    <effort>28800</effort>
-    <min-estimate>0</min-estimate>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <type>group</type>
+    <leveled-start>2014-04-09T05:00:00.000Z</leveled-start>
+    <child-task idref="t177"/>
+    <child-task idref="t181"/>
+    <child-task idref="t178"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
   </task>
   <task id="t167">
     <title>个人中心</title>
     <type>group</type>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
+    <leveled-start>2014-04-10T13:00:00.000Z</leveled-start>
     <child-task idref="t168"/>
     <child-task idref="t169"/>
     <child-task idref="t170"/>
     <child-task idref="t171"/>
     <child-task idref="t172"/>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
   </task>
   <task id="t168">
     <title>账号界面</title>
+    <leveled-start>2014-04-10T13:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
   </task>
   <task id="t169">
     <title>全部订单界面</title>
+    <leveled-start>2014-04-19T15:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
   </task>
   <task id="t170">
     <title>我订阅的机票</title>
+    <leveled-start>2014-04-20T15:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
   </task>
   <task id="t171">
     <title>常用联系人</title>
+    <leveled-start>2014-04-22T15:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
   </task>
   <task id="t172">
     <title>关于 TiCheck</title>
+    <leveled-start>2014-04-27T15:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
   </task>
   <task id="t173">
     <title>机票详情界面</title>
+    <leveled-start>2014-04-11T12:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2014-04-03T02:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2014-04-03T02:00:00.000Z</start-no-earlier-than>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t177">
+    <title>欢迎界面</title>
+    <leveled-start>2014-04-09T05:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t178">
+    <title>登录注册逻辑</title>
+    <leveled-start>2014-04-11T16:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t180">
+    <title>机票结果</title>
+    <type>group</type>
+    <leveled-start>2014-04-11T12:00:00.000Z</leveled-start>
+    <child-task idref="t70"/>
+    <child-task idref="t182"/>
+    <child-task idref="t173"/>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+  </task>
+  <task id="t181">
+    <title>登录注册界面</title>
+    <leveled-start>2014-04-09T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t182">
+    <title>价格走势界面</title>
+    <leveled-start>2014-04-15T16:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r4"/>
+  </task>
+  <task id="t183">
+    <title>支付界面</title>
+    <leveled-start>2014-04-18T13:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r3"/>
+  </task>
+  <task id="t184">
+    <title>支付逻辑</title>
+    <leveled-start>2014-04-19T00:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t185">
+    <title>订单详情界面</title>
+    <leveled-start>2014-04-18T12:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
+    <assignment idref="r5"/>
+  </task>
+  <task id="t189">
+    <title>产品部署</title>
+    <type>group</type>
+    <leveled-start>2014-05-05T02:00:00.000Z</leveled-start>
+    <child-task idref="t190"/>
+    <prerequisite-task idref="t91"/>
+  </task>
+  <task id="t190">
+    <title>申请审核</title>
+    <leveled-start>2014-05-05T02:00:00.000Z</leveled-start>
+    <effort>201600</effort>
+    <min-estimate>28800</min-estimate>
+    <assignment idref="r4"/>
   </task>
   <critical-path root="-1" enabled="false" resources="true">
     <color r="1" g="0.5" b="0.5"/>
