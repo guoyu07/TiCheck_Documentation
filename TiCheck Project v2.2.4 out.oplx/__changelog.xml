@@ -1730,6 +1730,28 @@
   <task-change-set user="Mark Young" date="2014-04-08T19:45:29.175Z" timestamp="2014-04-08T19:45:29.175Z">
     <change idref="t87" attribute="percentCompleteForMilestone" type="real" from="0" to="1" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Mark Young" date="2014-04-09T15:51:59.435Z" timestamp="2014-04-09T15:51:59.435Z">
+    <change idref="t70" attribute="resourceLeveledDate" type="date" from="2014-04-12T15:00:00.000Z" to="2014-04-13T05:00:00.000Z"/>
+    <change idref="t71" attribute="resourceLeveledDate" type="date" from="2014-04-19T11:30:00.000Z" to="2014-04-20T00:00:00.000Z"/>
+    <change idref="t75" attribute="resourceLeveledDate" type="date" from="2014-04-18T16:00:00.000Z" to="2014-04-19T05:00:00.000Z"/>
+    <change idref="t83" attribute="resourceLeveledDate" type="date" to="2014-03-13T02:00:00.000Z"/>
+    <change idref="t87" attribute="resourceLeveledDate" type="date" to="2014-03-31T02:00:00.000Z"/>
+    <change idref="t90" attribute="resourceLeveledDate" type="date" from="2014-04-23T15:00:00.000Z" to="2014-05-01T15:00:00.000Z"/>
+    <change idref="t91" attribute="resourceLeveledDate" type="date" from="2014-04-23T15:00:00.000Z" to="2014-05-01T15:00:00.000Z"/>
+    <change idref="t192" to="t167" to-position="0">
+      <change idref="t192" attribute="internalAssignments" type="string" from="" to="4"/>
+      <change idref="t192" attribute="noEarlierThanConstraintDate" type="date" to="2014-04-09T00:00:00.000Z"/>
+      <change idref="t192" attribute="resourceLeveledDate" type="date" to="2014-04-22T16:00:00.000Z"/>
+      <change idref="t192" attribute="title" type="string" to="个人中心界面"/>
+    </change>
+    <change idref="t169" attribute="resourceLeveledDate" type="date" from="2014-04-19T15:00:00.000Z" to="2014-04-20T05:00:00.000Z"/>
+    <change idref="t170" attribute="resourceLeveledDate" type="date" from="2014-04-20T15:00:00.000Z" to="2014-04-21T02:00:00.000Z"/>
+    <change idref="t171" attribute="resourceLeveledDate" type="date" from="2014-04-22T15:00:00.000Z" to="2014-04-23T13:00:00.000Z"/>
+    <change idref="t172" attribute="resourceLeveledDate" type="date" from="2014-04-27T15:00:00.000Z" to="2014-04-28T13:00:00.000Z"/>
+    <change idref="t178" attribute="resourceLeveledDate" type="date" from="2014-04-11T16:00:00.000Z" to="2014-04-12T05:00:00.000Z"/>
+    <change idref="t181" attribute="resourceLeveledDate" type="date" from="2014-04-09T15:00:00.000Z" to="2014-04-10T02:00:00.000Z"/>
+    <change idref="t182" attribute="resourceLeveledDate" type="date" from="2014-04-15T16:00:00.000Z" to="2014-04-16T05:00:00.000Z"/>
+  </task-change-set>
   <resource-change-set user="Mark Young" date="2014-03-05T14:12:47.560Z" timestamp="2014-03-05T14:12:47.560Z">
     <change idref="r3" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="75600,82800;75600,82800;75600,82800;75600,82800;75600,82800;75600,82800;"/>
   </resource-change-set>
