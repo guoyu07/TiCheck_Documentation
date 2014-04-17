@@ -738,6 +738,7 @@
     <title>欢迎界面</title>
     <leveled-start>2014-04-09T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -749,6 +750,7 @@
     <title>登录注册逻辑</title>
     <leveled-start>2014-04-12T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>17279.9989700317</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -773,6 +775,7 @@
     <title>登录注册界面</title>
     <leveled-start>2014-04-10T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
