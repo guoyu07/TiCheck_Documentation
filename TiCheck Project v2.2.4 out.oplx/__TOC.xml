@@ -8,17 +8,17 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>502</split-view-divider-position>
-      <outline x="0" y="310" w="502" h="681">
+      <outline x="0" y="350.5" w="502" h="681">
         <column name="Violations" width="20"/>
         <column name="Status" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="237"/>
         <column name="Effort" width="111"/>
         <column name="%Done" width="87"/>
-        <expanded-items idrefs="t18 t81 t58 t180 t20 t62 t167 t6 t96 t162 t15 t63 t189"/>
+        <expanded-items idrefs="t18 t180 t58 t81 t20 t62 t167 t6 t96 t162 t15 t189 t63"/>
         <selected-items-at-filter-time idrefs="t192"/>
       </outline>
-      <gantt-view x="2651" y="310" w="937" h="681">
+      <gantt-view x="3997" y="350.5" w="937" h="681">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -126,7 +126,7 @@
   </window>
   <project>
     <title>TiCheck Project</title>
-    <next-task-id>193</next-task-id>
+    <next-task-id>200</next-task-id>
     <next-resource-id>8</next-resource-id>
     <scenario id="gXCqfbWaRc4" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="false" seconds="false"/>

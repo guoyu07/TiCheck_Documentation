@@ -299,16 +299,19 @@
   </task>
   <task id="t4">
     <title>Apple Push Notification Server后台</title>
+    <split/>
     <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
     <effort>201600</effort>
-    <min-estimate>28800</min-estimate>
-    <effort-done>40319.99609375</effort-done>
+    <min-estimate>172800</min-estimate>
+    <expected-estimate>0</expected-estimate>
+    <max-estimate>0</max-estimate>
+    <child-task idref="t197"/>
+    <child-task idref="t198"/>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
       </value>
     </style>
-    <assignment idref="r1"/>
   </task>
   <task id="t5">
     <title>服务器数据库实现</title>
@@ -341,10 +344,8 @@
   <task id="t12">
     <title>订阅机票后台实现</title>
     <leveled-start>2014-04-10T02:00:00.000Z</leveled-start>
-    <effort>201600</effort>
-    <min-estimate>28800</min-estimate>
-    <max-estimate>331200</max-estimate>
-    <effort-done>18144</effort-done>
+    <effort>406800</effort>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="0" g="0.501961" b="1"/>
@@ -354,6 +355,7 @@
     <prerequisite-task idref="t5"/>
     <assignment idref="r2"/>
     <assignment idref="r6"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t15">
     <title>iOS 前台</title>
@@ -378,15 +380,17 @@
     <title>测试携程 API 联通</title>
     <leveled-start>2014-04-07T02:00:00.000Z</leveled-start>
     <effort>115200</effort>
-    <min-estimate>0</min-estimate>
-    <max-estimate>207000</max-estimate>
+    <expected-estimate>0</expected-estimate>
+    <max-estimate>-91800</max-estimate>
     <effort-done>85248</effort-done>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
       </value>
     </style>
     <assignment idref="r1"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t18">
     <title>搜索机票</title>
@@ -469,17 +473,24 @@
     <title>机票结果界面</title>
     <leveled-start>2014-04-13T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <min-estimate>0</min-estimate>
+    <expected-estimate>0</expected-estimate>
+    <max-estimate>0</max-estimate>
+    <effort-done>23328</effort-done>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
       </value>
     </style>
     <assignment idref="r4"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t71">
     <title>订单处理逻辑</title>
     <leveled-start>2014-04-20T00:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>14688</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -491,6 +502,7 @@
     <title>订阅机票界面</title>
     <leveled-start>2014-04-17T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
     <recalculate>effort</recalculate>
     <style>
       <value key="font-fill">
@@ -498,6 +510,7 @@
       </value>
     </style>
     <assignment idref="r4"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t75">
     <title>订阅机票逻辑</title>
@@ -515,7 +528,7 @@
     <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <max-estimate>50400</max-estimate>
-    <effort-done>18000</effort-done>
+    <effort-done>10656</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -527,7 +540,7 @@
     <title>搜索机票逻辑</title>
     <leveled-start>2014-04-16T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <effort-done>5759.99951171875</effort-done>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -551,7 +564,7 @@
     <leveled-start>2014-04-14T02:00:00.000Z</leveled-start>
     <effort>288000</effort>
     <min-estimate>0</min-estimate>
-    <effort-done>144000</effort-done>
+    <effort-done>158400</effort-done>
     <style>
       <value key="font-fill">
         <color r="0.501961" g="0" b="1"/>
@@ -672,6 +685,7 @@
     <title>账号界面</title>
     <leveled-start>2014-04-10T13:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -727,6 +741,7 @@
     <title>机票详情界面</title>
     <leveled-start>2014-04-11T12:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -750,13 +765,18 @@
     <title>登录注册逻辑</title>
     <leveled-start>2014-04-12T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <effort-done>17279.9989700317</effort-done>
+    <min-estimate>0</min-estimate>
+    <expected-estimate>0</expected-estimate>
+    <max-estimate>0</max-estimate>
+    <effort-done>17279.998046875</effort-done>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
       </value>
     </style>
     <assignment idref="r4"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t180">
     <title>机票结果</title>
@@ -787,6 +807,7 @@
     <title>价格走势界面</title>
     <leveled-start>2014-04-16T05:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -798,6 +819,7 @@
     <title>支付界面</title>
     <leveled-start>2014-04-18T13:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>6624</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -820,6 +842,7 @@
     <title>订单详情界面</title>
     <leveled-start>2014-04-18T12:00:00.000Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>15552</effort-done>
     <style>
       <value key="font-fill">
         <color r="1" g="0" b="0.501961"/>
@@ -846,8 +869,39 @@
     <leveled-start>2014-04-22T16:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <start-constraint-date>2014-04-09T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="1" g="0" b="0.501961"/>
+      </value>
+    </style>
     <assignment idref="r4"/>
     <start-no-earlier-than>2014-04-09T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t197">
+    <title>Apple Push Notification Server后台</title>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <effort>39600</effort>
+    <effort-done>39600</effort-done>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t198">
+    <title>Apple Push Notification Server后台</title>
+    <leveled-start>2014-04-03T02:00:00.000Z</leveled-start>
+    <effort>162000</effort>
+    <effort-done>719.99609375</effort-done>
+    <start-constraint-date>2014-04-18T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color r="0" g="0.501961" b="1"/>
+      </value>
+    </style>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2014-04-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="true">
     <color r="1" g="0.5" b="0.5"/>
